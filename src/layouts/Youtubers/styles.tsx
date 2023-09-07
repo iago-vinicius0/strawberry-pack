@@ -9,12 +9,10 @@ export const Container = styled.div<{ backImage: string }>`
   @media (min-width: 1280px) and (max-width: 1920px) {
     gap: 50px;
   }
-  background-color: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 50px;
-  background: #000;
   background-image: url(${(props) => props.backImage});
   background-size: cover;
   background-position: center;

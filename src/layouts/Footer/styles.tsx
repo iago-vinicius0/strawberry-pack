@@ -9,6 +9,7 @@ export const Container = styled.div<{backImage: string}>`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     background-image: url(${(props) => props.backImage});
     background-size: cover;
     background-position: center;
